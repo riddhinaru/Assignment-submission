@@ -1,0 +1,23 @@
+Day 1 Assignment
+Topic: Mention the difference between Compiler and Interpreter.
+Compiler:-
+It scans the entire program in one go.
+As and when scanning is performed, all these are shown in the end together, not line by line.
+It converts the source code to object code.
+Its execution time is less, hence it is preferred.
+It doesn’t require the source code for execution later.
+Programming languages that uses compilers are C, C++, C#.
+It helps parse or analyse the language statements.
+It takes an entire program as input and generates intermediate machine code as output.
+Difficult to implement as compilers cannot predict what happens at turn time.
+
+And
+
+Interpreter:-
+The program is interpreted/translated one line at a time.
+One line of code is scanned, and errors encountered are shown.
+Usually, interpreter is slow, and hence takes more time to execute the object code.
+It is not preferred due to its slow speed.
+It doesn’t convert source code into object code.
+It requires the source code for execution later.
+Programming languages that uses interpreter are- Python, Ruby, Perl, MATLAB.
