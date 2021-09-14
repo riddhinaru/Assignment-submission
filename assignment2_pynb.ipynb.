@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "assignment2.pynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOdW6ft4CA7wX6jBADRwO/Y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/riddhinaru/Assignment-submission/blob/main/assignment2_pynb.ipynb.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ARlamrAj42l3"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Qi-QSCqq47FS"
+      },
+      "source": [
+        "#Python Program to find the Prime Number\n",
+        "Number =int(input(\"Please enter any Number:\"))\n",
+        "count = 0\n",
+        "i = 2\n",
+        "\n",
+        "while(i <= Number//2):\n",
+        "  if(Number % i== 0):\n",
+        "      count = count + 1\n",
+        "      break\n",
+        "    i =i + 1\n",
+        "\n",
+        "if(count == 0 and Number != 1):\n",
+        "   print(\" %d is a Prime Number\" %Number)\n",
+        "else:\n",
+        "   print(\" %d is not a Prime Number\" %Number)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
